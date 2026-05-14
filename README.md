@@ -9,15 +9,7 @@ This project focuses on building a **strong database foundation** that can easil
 
 ---
 
-##  Data Models
 
-The backend includes the following core models:
-
-* **User** – Manages user accounts and liked songs
-* **Artist** – Stores artist details, albums, and songs
-* **Album** – Represents albums linked to artists
-* **Song** – Stores song metadata linked to albums and artists
-* **Playlist** – User-created playlists containing songs
 
 All relationships are handled using `mongoose.Schema.Types.ObjectId` and references for easy population.
 
